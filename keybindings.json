@@ -1,0 +1,143 @@
+[
+  // ============ Cursor AI ============
+
+  {
+    "key": "ctrl+l",
+    "command": "aichat.open",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "aiComposer.start"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "aichat.inlineEdit"
+  },
+
+  // ============ Terminal ============
+
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.new"
+  },
+
+  // ============ Focus / Navigation ============
+
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.extensions.action.showExtensions"
+  },
+
+  // ============ Jupyter ============
+
+  {
+    "key": "shift+enter",
+    "command": "jupyter.runAndAdvanceCell",
+    "when": "editorTextFocus && jupyter.hascell"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "jupyter.runCell",
+    "when": "editorTextFocus && jupyter.hascell"
+  },
+  {
+    "key": "alt+enter",
+    "command": "jupyter.insertCellBelowAndFocus",
+    "when": "notebookEditorFocused"
+  },
+
+  // ============ Editing ============
+
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.selectAllOccurrencesOfFindMatch"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.deleteLines"
+  },
+  {
+    "key": "f2",
+    "command": "editor.action.rename"
+  },
+  {
+    "key": "f12",
+    "command": "editor.action.revealDefinition"
+  },
+  {
+    "key": "alt+f12",
+    "command": "editor.action.peekDefinition"
+  },
+  {
+    "key": "shift+f12",
+    "command": "editor.action.referenceSearch.trigger"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.replaceInFiles"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.formatDocument"
+  },
+
+  // ============ Window ============
+
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  }
+]
