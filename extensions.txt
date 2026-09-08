@@ -2,6 +2,7 @@ anysphere.cursorpyright
 anysphere.remote-ssh
 charliermarsh.ruff
 continue.continue
+enkia.tokyo-night
 esbenp.prettier-vscode
 lohsebhipolg2s.theme-aurora-borealis
 ms-azuretools.vscode-containers
@@ -10,4 +11,7 @@ ms-python.debugpy
 ms-python.python
 pkief.material-icon-theme
 redhat.vscode-yaml
+supermaven.supermaven
 tamasfe.even-better-toml
+
+

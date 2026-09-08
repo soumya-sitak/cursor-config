@@ -1,0 +1,15 @@
+# Cursor generated/local state
+History/
+globalStorage/
+workspaceStorage/
+
+# Cursor profiles (optional - ignore if you don't want to version them)
+profiles/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.backup
